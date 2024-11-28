@@ -31,6 +31,18 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 
 /* layout */
 .page_wrap{min-width:280px;}
+.page_wrap.intro{}
+.intro_container{}
+.intro_container.type_black{}
+.intro_container.type_blue{}
+.intro_container.type_purple{}
+.intro_container.type_orange{}
+.intro_item{}
+.intro_logo{}
+.intro_logo img{}
+.intro_copy_group{}
+.intro_copy{}
+.intro_copy:last-of-type{}
 
 @media (max-width:1199px){
     
