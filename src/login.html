@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+ @@include('./include/head.html')
+<body class="front_body">
+	<div class="page_wrap">
+        @@include('./include/header_login.html')
+		<section class="middle_section">
+			<div class="mid_form_container">
+                <div class="mid_form_title_row">
+                    <h2 class="mid_form_title">VIP로그인</h2>
+                    <p class="mid_form_subcopy">롯데카드 에비뉴엘<br>GIFT 사이트에 오신 것을 환영합니다.</p>
+                </div>
+                <div class="mid_form_contents">
+                    <div class="mid_field_wrap">
+                        <ul class="field_item_list">
+                            <li>
+                                <div class="field_item"><input type="text" class="input_form" placeholder="아이디"></div>
+                            </li>
+                            <li>
+                                <div class="field_item"><input type="password" class="input_form" placeholder="비밀번호"><button class="btn_field_obj ico_eye"></button></div>
+                            </li>
+                        </ul>
+                        <div class="field_copy_wrap">
+                            <p class="field_copy">아이디와 비밀번호를 잊어버리셨을 경우<br>고객 센터로 연락해주시기 바랍니다.</p>
+                        </div>
+                    </div>
+                    <div class="btn_field_wrap">
+                        <a href="#" class="btn_box primary"><span class="btn_box_text">로그인</span></a>
+                    </div>
+                </div>
+            </div>
+		</section>
+		@@include('./include/footer.html')
+	</div>
+</body>
+
+</html>

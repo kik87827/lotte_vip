@@ -189,3 +189,120 @@
     
 }
 
+/* component */
+.btn_bottom_container{}
+.btn_bottom_container .btn_box{}
+.btn_box{}
+.btn_box.primary{}
+.btn_box.primary .btn_box_text{}
+.btn_box .ico{}
+.btn_box .ico.more{}
+.btn_box_text{}
+
+.bullet_list{}
+.bullet_list > li{}
+.bullet_list > li:last-of-type{}
+.bullet_list.dot{}
+.bullet_list.dot > li{}
+.bullet_list.dot > li:before{}
+.indent_para_list{}
+.indent_para_list > li{}
+.indent_para_list > li:last-of-type{}
+.cloudy,
+.cloudy *{}
+
+/* main */
+.mv_zone{}
+.mv_main_cell{}
+.mv_item{}
+.mv_copy_group{}
+.mv_copy{}
+.mv_btn_list{}
+.mv_btn_list > li{}
+.mv_btn_list > li:after{}
+.mv_btn_list > li:last-of-type{}
+.mv_btn_list > li:last-of-type:after{}
+.btn_card{}
+.btn_card .ico{}
+.btn_card .ico.pencil{}
+.btn_card .ico.list{}
+.btn_card_text{}
+.mv_bg_cell{}
+.mc_zone{}
+.mc_item{}
+.mc_title_row{}
+.mc_title{}
+.mc_contents{}
+.mc_contents .btn_bottom_container{}
+.mc_linkage_wrap{}
+.mc_linkage_list{}
+.mc_linkage_list > li{}
+.mc_linkage_list > li:last-of-type{}
+.mc_linkage_item{}
+.mc_linkage_thum{}
+.mc_linkage_thum > img{}
+.mc_linkage_spec{}
+.lk_title{}
+.lk_title:after{}
+.lk_summary{}
+
+/* contents */
+.data_board_render{}
+.data_board_list{}
+.data_board_list > li{}
+.data_board_list > li:last-of-type{}
+.data_board_item{}
+.data_board_img{}
+.data_board_img > img{}
+.data_board_contents{}
+.board_title_row{}
+.board_title{}
+.board_contents_row{}
+.board_contents_row *{}
+
+.mid_form_container{}
+.mid_form_title_row{}
+.mid_form_title{}
+.mid_form_subcopy{}
+.mid_form_contents{}
+.mid_field_wrap{}
+.field_item_list{}
+.field_item_list > li{}
+.field_item_list > li:last-of-type{}
+.field_item{}
+input.input_form{}
+.btn_field_obj{}
+.btn_field_obj.ico_eye{}
+.field_copy_wrap{}
+.field_copy{}
+.btn_field_wrap{}
+.btn_field_wrap .btn_box{}
+.gallery_wrap{}
+.gallery_list{}
+.gallery_list > li{}
+.gallery_list > li:last-of-type{}
+.gallery_item{}
+.gallery_thum{}
+.gallery_thum > img{}
+.gallery_spec{}
+.gallery_spec_para{}
+
+.detail_container{}
+.detail_top_wrap{}
+.swiper-container.swiper-detail{}
+.swiper-container.swiper-detail .swiper-wrapper{}
+.swiper-container.swiper-detail .swiper-slide{}
+.btn-control-swiper{}
+.btn-control-swiper.prev{}
+.btn-control-swiper.next{}
+.swiper_product_img{}
+.swiper_product_img > img{}
+
+.detail_middle_wrap{}
+.detail_middle_wrap + .btn_bottom_container{}
+.detail_spec_block{}
+.detail_spec_block:last-of-type{}
+.ds_brick{}
+.ds_brick.title_row{}
+.ds_brick.contents_row{}
+.detail_spec_title{}

@@ -44,6 +44,73 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 .intro_copy{}
 .intro_copy:last-of-type{}
 
+.header_section{}
+.header_section.single{}
+.header_section.single .header_inner{}
+.header_section.single .header_toplogo{}
+.header_inner{}
+.header_toplogo{}
+.toplogo_link{}
+.toplogo_type{}
+.header_desktop_item_group{}
+.desktop_nav_wrap{}
+.desktop_nav_list{}
+.desktop_nav_list > li{}
+.desktop_nav_list > li:last-of-type{}
+.desktop_nav_item{}
+.desktop_nav_item:hover{}
+.desktop_util_wrap{}
+.desktop_util_list{}
+.desktop_util_list > li{}
+.desktop_util_list > li:last-of-type{}
+.destop_util_item{}
+.btn_panel_menu{}
+
+.mobile_panel_zone{}
+.mobile_panel_dim{}
+.mobile_panel_wrap{}
+.mbutil_row{}
+.mbutil_type{}
+.mbutil_define_row{}
+.mbutil_define_row .who{}
+.mbutil_define_row .who_else{}
+.mbmenu_row{}
+.mbmenu_inwrap{}
+.mbmenu_vlist{}
+.mbmenu_vlist > li{}
+.mbmenu_vlist > li:last-of-type{}
+.mbmenu_one{}
+.mbmenu_one:after{}
+.btn_mbmenuclose{}
+
+.page_middle_layer{}
+.btn_topgo{}
+
+.middle_section{}
+.middle_section.main{}
+
+.footer_section{}
+.footer_inner{}
+.footer_cells{}
+.footer_cells.define_logo{}
+.footer_cells.define_contents{}
+.footer_logo{}
+
+.footer_cont_list{}
+.footer_cont_list > li{}
+.footer_cont_list > li .emp{}
+.footer_cont_list > li:last-of-type{}
+
+.footer_copy_list{}
+.footer_copy_list > li{}
+.footer_copy_list > li:last-of-type{}
+
+
+.sub_global_wrap{}
+.sub_global_title{}
+.sub_global_copy{}
+.sub_contents_wrap{}
+
 @media (max-width:1199px){
     
 }
