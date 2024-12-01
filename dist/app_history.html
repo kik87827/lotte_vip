@@ -20,6 +20,9 @@
 	<div class="page_wrap">
 		<header class="header_section">
 			<div class="header_inner">
+				<div class="respon_util_wrap">
+					<span class="toplogo_type">BLACK</span>
+				</div>
 				<h1 class="header_toplogo"><a href="#" class="toplogo_link"></a><span class="toplogo_type">BLACK</span></h1>
 				<div class="header_desktop_item_group">
 					<nav class="desktop_nav_wrap">
@@ -35,8 +38,8 @@
 						</ul>
 					</div>
 				</div>
+				<a href="javascript:;" class="btn_panel_menu"></a>
 			</div>
-			<a href="javascript:;" class="btn_panel_menu"></a>
 			<!-- mobile -->
 			<div class="mobile_panel_zone" id="mobile_gnb">
 				<div class="mobile_panel_dim"></div>
@@ -90,12 +93,12 @@
 					</div>
 				</div>
 				<div class="sc_brick">
-					<div class="sc_brick_title_row">
+					<div class="sc_brick_title_row type2">
 						<p class="sc_brick_title">*기프트 신청 내역</p>
 						<p class="sc_brick_tcopy">기프트 변경은 신청일 기준 당일만 가능합니다.</p>
 					</div>
 					<div class="sc_brick_contents">
-						<div class="history_container">
+						<div class="history_container gap2">
 							<div class="his_row">
 								<a href="#" class="product_obj_item">
 									<div class="product_img_cols"><img src="./assets/images/data_fiqure.jpg" alt=""></div>
@@ -105,7 +108,7 @@
 								</a>
 							</div>
 							<div class="his_row">
-								<ul class="order_obj_list">
+								<ul class="order_obj_list type2">
 									<li>
 										<dl class="order_obj_item">
 											<dt><span class="order_key_text">신청일</span></dt>
@@ -121,15 +124,15 @@
 									<li>
 										<dl class="order_obj_item">
 											<dt><span class="order_key_text">변경/취소</span></dt>
-											<dt><span class="order_key_value">가능</span></dt>
+											<dt><span class="order_key_value">불가능</span></dt>
 										</dl>
 									</li>
 								</ul>
 							</div>
 						</div>
 						<div class="btn_bottom_container">
-							<button class="btn_box" id="button_submit"><span class="btn_box_text">취소</span></button>
-							<a href="#" class="btn_box" id="link_submit"><span class="btn_box_text">취소</span></a>
+							<button class="btn_box primary" id="button_submit"><span class="btn_box_text">취소</span></button>
+							<!-- <a href="#" class="btn_box primary" id="link_submit"><span class="btn_box_text">취소</span></a> -->
 						</div>
 					</div>
 				</div>
@@ -142,7 +145,7 @@
 
 			if (url_2 === "disabled") {
 				document.querySelector("#button_submit").disabled = true;
-				document.querySelector("#link_submit").classList.add("disabled");
+				// document.querySelector("#link_submit").classList.add("disabled");
 			}
 		</script>
 		<div class="page_middle_layer"><a href="#" class="btn_topgo"></a></div>
@@ -153,7 +156,7 @@
 					<ul class="footer_cont_list">
 						<li>롯데카드 에비뉴엘 바우처 전담센터 1899-1851</li>
 						<li>운영시간 09:00~17:00 (주말 및 공휴일 제외)</li>
-						<li><strong class="emp">E-MAIL: loca-avenuel@aksecuremail.com</strong></li>
+						<li>E-MAIL: loca-avenuel@aksecuremail.com</li>
 					</ul>
 					<ul class="footer_copy_list">
 						<li>Supported by loca-avenuel All rights reserved</li>

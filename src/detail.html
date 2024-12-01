@@ -12,20 +12,21 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="swiper_product_img">
-                                    <img src="./assets/images/product_01_pc.png" alt="">
+                                    <img src="./assets/images/detail_img.jpg" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper_product_img">
-                                    <img src="./assets/images/product_01_pc.png" alt="">
+                                    <img src="./assets/images/detail_img.jpg" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper_product_img">
-                                    <img src="./assets/images/product_01_pc.png" alt="">
+                                    <img src="./assets/images/detail_img.jpg" alt="">
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-pagination"></div>
                         <a href="javascript:;" class="btn-control-swiper next"></a>
                     </div>
                 </div>
@@ -70,6 +71,23 @@
                 </div>
             </div>
 		</section>
+        <script>
+            window.addEventListener("load",()=>{
+                var swiper = new Swiper(".swiper-detail", {
+                    loop : true,
+                    speed : 1000,
+                    spaceBetween : 0,
+                    navigation: {
+                        nextEl: ".swiper-detail .btn-control-swiper.next",
+                        prevEl: ".swiper-detail .btn-control-swiper.prev",
+                    },
+                    pagination: {
+                        el: ".swiper-detail .swiper-pagination",
+                        type: "fraction",
+                    },
+                });
+            })
+        </script>
 		@@include('./include/footer.html')
 	</div>
 </body>

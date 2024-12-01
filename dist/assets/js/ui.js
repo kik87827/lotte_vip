@@ -33,10 +33,16 @@ function layoutFunc() {
   mbTotal();
   function action(){
     if(!header_section){return;}
-    page_wrap.removeAttribute("style");
-    page_wrap.style.paddingTop = header_section.getBoundingClientRect().height + "px";
-    let headerHeight = header_section.getBoundingClientRect().height;
-    page_wrap.setAttribute("style",`padding-top: ${headerHeight}px`)
+    //page_wrap.removeAttribute("style");
+    //page_wrap.style.paddingTop = header_section.getBoundingClientRect().height + "px";
+    let buffer = document.createElement("div");
+    buffer.classList.add("buffer");
+    if(!document.querySelector(".buffer")){
+      page_wrap.prepend(buffer);
+      let headerHeight = header_section.getBoundingClientRect().height;
+      //page_wrap.setAttribute("style",`padding-top: ${headerHeight}px`)
+      buffer.setAttribute("style",`padding-top: ${headerHeight}px`)
+    }
   }
   function mbTotal() {
     var touchstart = "ontouchstart" in window;
@@ -65,7 +71,7 @@ function layoutFunc() {
       totalClose();
     }, false);
     resizeAction(()=>{
-      if(window.innerWidth > 767){
+      if(window.innerWidth > 1440){
         totalClose();
       }
     });
@@ -425,6 +431,16 @@ function formFunc(){
       });
     })
   }
+  $(function(){
+    $(document).on("change",".form_select",function(){
+      let thisTarget = $(this);
+      if(thisTarget[0].value !== "0"){
+        thisTarget.removeClass("placeholder");
+      }else{
+        thisTarget.addClass("placeholder");
+      }
+    });
+  });
 }
 
 
@@ -523,7 +539,7 @@ function reformFunc(){
 		});
 		$resitem2.each(function(){
 			if($(window).width()<=767){
-				$(this).css({"flex-basis":""});
+				$(this).css({"flex-basis":$(this).attr("data-mbflex")});
 			}else{
 				$(this).css({ "flex-basis": $(this).attr("data-pcflex")});
 			}
@@ -570,5 +586,20 @@ function boxTab(target){
         }
       });
     });
+  }
+}
+
+
+function toggleItem(){
+  const btn_toggle_ico = document.querySelectorAll(".btn_toggle_ico");
+  if(btn_toggle_ico.length){
+    btn_toggle_ico.forEach((eachItem) => {
+      eachItem.addEventListener("click",(e)=>{
+        e.preventDefault();
+        let thisEvent = e.currentTarget;
+        let thisParents = thisEvent.closest(".toggle_item");
+        thisParents.classList.toggle("active");
+      });
+    })
   }
 }
