@@ -17,34 +17,16 @@
 </head>
 
 <body class="front_body">
-	<div class="page_wrap">
-		<a href="#" class="btn_guide_box" id="btnCall">모달 호출</a>
-
-
-		<script>
-			let modalOption = {
-				message: "신청을 취소하시겠 습니까?",
-				modaltype: 'confirm',
-				okText: '예',
-				cancelText: '아니오',
-				okcallback() {
-					console.log('okcallback');
-				},
-				cancelcallback() {
-					console.log('cancelcallback');
-				}
-			}
-			designModal(modalOption);
-
-			document.addEventListener("DOMContentLoaded", function() {
-
-
-				// event
-				document.querySelector("#btnCall").addEventListener("click", () => {
-					designModal(modalOption);
-				});
-			});
-		</script>
+	<div class="page_wrap intro">
+		<main class="intro_container type_orange">
+			<div class="intro_item">
+				<div class="intro_logo"><img src="./assets/images/intro_logo.svg" alt="AVENUEL"></div>
+				<div class="intro_copy_group">
+					<p class="intro_copy">나를 빛나게 하는 단 한 장의 카드</p>
+					<p class="intro_copy">롯데카드 에비뉴엘 바우처<br>전담센터 입니다.</p>
+				</div>
+			</div>
+		</main>
 	</div>
 </body>
 

@@ -306,3 +306,87 @@ input.input_form{}
 .ds_brick.title_row{}
 .ds_brick.contents_row{}
 .detail_spec_title{}
+
+
+.middle_copy_wrap{}
+.middle_main_copy{}
+.middle_sub_copy{}
+
+.btn_box_wrap{}
+.btn_box_wrap .btn_box{}
+.btn_box_wrap .btn_box_text{}
+
+.history_container{}
+.his_row{}
+.his_row:last-of-type{}
+
+.product_obj_item{}
+.product_img_cols{}
+.product_img_cols img{}
+.product_spec_cols{}
+.product_spec_para{}
+
+.order_obj_list{}
+.order_obj_list > li{}
+.order_obj_list > li:last-of-type{}
+
+.order_obj_item{}
+.order_obj_item dt,
+.order_obj_item dd{}
+.order_obj_item dt{}
+.order_obj_item dd{}
+
+.order_key_text{}
+.order_key_value{}
+
+.sc_brick_wrap{}
+.sc_brick{}
+.sc_brick:last-of-type{}
+.sc_brick_title_row{}
+.sc_brick_title{}
+.sc_brick_title_copy{}
+.sc_brick_tcopy{}
+.sc_brick_contents{}
+.sc_brick_contents .history_container{}
+.sc_data_group{}
+.sc_data_key_row{}
+.sc_data_key{}
+.sc_type_word{}
+.sc_data_value_row{}
+.sc_data_value{}
+
+.toggle_list_wrap{}
+.toggle_list{}
+.toggle_list > li{}
+.toggle_list > li:last-of-type{}
+.toggle_item{}
+.toggle_target{}
+.toggle_target_para{}
+.btn_toggle_ico{}
+.toggle_contents{}
+.terms_box{}
+.terms_box .bullet_list{}
+
+.grid_form_container{}
+.grid_form_list{}
+.grid_form_list > li{}
+.grid_form_list > li:last-of-type{}
+
+select.form_select{}
+select.form_select.placeholder{}
+
+.inline_cols_item{}
+.inline_cells{}
+.inline_cells.auto{}
+.inline_cells.liquid{}
+
+.ring_hor_item{}
+.ring_hor_cells{}
+.ring_hor_cells input.input_form{}
+.ring_hor_cells .field_item{}
+
+.field_label_row{}
+.field_label{}
+
+.btn_inline_box{}
+.btn_inline_text{}
