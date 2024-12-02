@@ -603,3 +603,25 @@ function toggleItem(){
     })
   }
 }
+
+
+function eyeForm(){
+  const btn_field_eye = document.querySelectorAll(".ico_eye");
+  if(btn_field_eye.length){
+      btn_field_eye.forEach((item) => {
+          let thisItem = item;
+          thisItem.addEventListener("click",(e)=>{
+              let thisEvent = e.currentTarget;
+              let thisParent = thisEvent.closest(".field_item");
+              let thisInput = thisParent.querySelector(".input_form");
+
+              thisParent.classList.toggle("close_eye");
+              if(thisParent.classList.contains("close_eye")){
+                  thisInput.setAttribute("type","text");
+              }else{
+                  thisInput.setAttribute("type","password");
+              }
+          });
+      });
+  }
+}

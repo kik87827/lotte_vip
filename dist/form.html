@@ -91,41 +91,57 @@
 
 		<section class="middle_section">
 			<div class="form_view_container">
-				<div class="middle_copy_wrap">
-					<p class="middle_main_copy">바우처 신청이 완료됐습니다.</p>
-					<p class="middle_sub_copy">상세 내역은 ‘바우처 신청 <br>내역’페이지에서 확인 가능합니다.</p>
-				</div>
-				<div class="btn_box_wrap">
-					<a href="#" class="btn_box"><span class="btn_box_text">바우처 신청내역</span></a>
-				</div>
-				<div class="history_container gap2">
-					<div class="his_row">
-						<a href="#" class="product_obj_item">
-							<div class="product_img_cols"><img src="./assets/images/data_fiqure.jpg" alt=""></div>
-							<div class="product_spec_cols">
-								<div class="product_spec_para">조선팰리스 숙박 패키지</div>
+				<div class="sc_brick_wrap">
+					<div class="sc_brick">
+						<div class="sc_brick_title_row">
+							<p class="sc_brick_title">*인풋 가이드</p>
+						</div>
+						<div class="sc_brick_contents">
+							<div class="grid_form_container">
+								<ul class="grid_form_list">
+									<li>
+										<select class="form_select">
+											<option value="0">선택</option>
+											<option value="1" selected>기본 배송지</option>
+										</select>
+									</li>
+									<li>
+										<select class="form_select" disabled>
+											<option value="0">선택 비활성</option>
+											<option value="1">기본 배송지</option>
+										</select>
+									</li>
+									<li>
+										<div class="field_item"><input type="text" class="input_form" placeholder="Placeholder Text"></div>
+										<!--   <p class="field_error_message">에러 메세지가 뜨는 칸입니다.</p> -->
+									</li>
+									<li>
+										<div class="field_item error"><input type="text" class="input_form" placeholder="Placeholder Text"></div>
+										<p class="field_error_message">에러 메세지가 뜨는 칸입니다.</p>
+									</li>
+									<li>
+										<div class="field_item"><input type="password" class="input_form" placeholder="비밀번호"><button class="btn_field_obj ico_eye"></button></div>
+									</li>
+								</ul>
 							</div>
-						</a>
+						</div>
 					</div>
-					<div class="his_row">
-						<ul class="order_obj_list">
-							<li>
-								<dl class="order_obj_item">
-									<dt><span class="order_key_text">신청일</span></dt>
-									<dt><span class="order_key_value">2024.12.01</span></dt>
-								</dl>
-							</li>
-							<li>
-								<dl class="order_obj_item">
-									<dt><span class="order_key_text">상태</span></dt>
-									<dt><span class="order_key_value">주문완료</span></dt>
-								</dl>
-							</li>
-						</ul>
-					</div>
+				</div>
+				<div class="btn_bottom_container gap_type2">
+					<a href="#" class="btn_box primary"><span class="btn_box_text">신청하기</span></a>
+					<a href="#" class="btn_box"><span class="btn_box_text">취소</span></a>
+				</div>
+				<div class="btn_bottom_container gap_type2">
+					<button class="btn_box primary" disabled><span class="btn_box_text">Button 신청하기 비활성</span></button>
+				</div>
+				<div class="btn_bottom_container gap_type2">
+					<a href="#" class="btn_box primary disabled"><span class="btn_box_text">A 태그 신청하기</span></a>
 				</div>
 			</div>
 		</section>
+		<script>
+			eyeForm();
+		</script>
 		<div class="page_middle_layer"><a href="#" class="btn_topgo"></a></div>
 		<footer class="footer_section">
 			<div class="footer_inner">
