@@ -597,7 +597,7 @@ function toggleItem(){
       eachItem.addEventListener("click",(e)=>{
         e.preventDefault();
         let thisEvent = e.currentTarget;
-        let thisParents = thisEvent.closest(".toggle_item");
+        let thisParents = thisEvent.closest(".toggle_item , .data_board_item");
         thisParents.classList.toggle("active");
       });
     })
