@@ -157,10 +157,11 @@ html ::-webkit-scrollbar {
 
 
 .sub_global_wrap{text-align: center;border-bottom:1px solid #DBDBDB;padding:30px;}
+.sub_global_wrap.type2{border-bottom:0;}
 .sub_global_title{font-size:18px; font-weight:500; color:#000;}
 .sub_global_copy{font-size:16px; color:#000; font-weight:300;line-height:1.3;margin-top:10px;}
 .sub_contents_wrap{max-width:1200px;padding:57px 20px; margin:0 auto;}
-
+.sub_contents_wrap.type2{padding:0 0;max-width: 100%;}
 @media (max-width:1440px){
     .respon_util_wrap,
     .btn_panel_menu{display:block;}
